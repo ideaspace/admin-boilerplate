@@ -2,8 +2,7 @@
   <div class="top-bar">
     <div class="top-bar--brand">
       <div class="top-bar--item top-bar--item-logo">
-        <!--<i class="fa fa-connectdevelop"></i>-->
-        <span></span>
+        <i class="fa fa-feather-alt"></i>
       </div>
       <div class="top-bar--item top-bar--item-text">
         <span>管理控制台</span>
@@ -110,7 +109,7 @@ export default {
       height: 30px;
     }
     > i {
-      font-size: 30px;
+      font-size: 24px;
     }
   }
   &--item-link {

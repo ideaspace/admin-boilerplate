@@ -112,7 +112,7 @@ export default {
       cursor: pointer;
       border-radius: 4px;
       background-color: #fff;
-      box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+      box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.2);
       .icon {
         border-radius: 4px 4px 0 0;
         background-color: $primary-blue-color;
