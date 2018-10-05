@@ -13,6 +13,7 @@ import store from './store'
 import ViewContainer from './components/layout/ViewContainer'
 import MdCard from './components/md/MdCard'
 
+import MenuData from './mocks/menu'
 const isProd = process.env.NODE_ENV === 'production'
 
 class Bootstrap {
@@ -46,9 +47,9 @@ class Bootstrap {
     // 全局路由劫持
     this.router.beforeEach(async (to, from, next) => {
       if (!this.store.state.container.spaLoaded) {
-        const r = isProd ? require('./mocks/menu.json') : await http.get('mocks/menu.json')
+        const r = isProd ? MenuData : await http.get('mocks/menu.json')
         this.store.dispatch('menu/createMenuData', {
-          modMenuData: r.data,
+          modMenuData: isProd ? r : r.data,
           menuName: to.meta.bind,
           toName: to.name,
           fromName: from.name
