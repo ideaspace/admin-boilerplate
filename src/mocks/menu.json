@@ -1,0 +1,259 @@
+{
+  "name": "前端样板",
+  "id": 0,
+  "children": [
+    {
+      "name": "快速上手",
+      "id": 1,
+      "parentIds": [0],
+      "url": "start",
+      "icon": "box-open"
+    },
+    {
+      "name": "开发规约",
+      "id": 2,
+      "parentIds": [0],
+      "url": "spec",
+      "icon": "book-open",
+      "children": [
+        {
+          "name": "重要说明",
+          "id": 21,
+          "parentIds": [2],
+          "url": "important-things",
+          "icon": ""
+        },
+        {
+          "name": "文件目录",
+          "id": 22,
+          "parentIds": [2],
+          "url": "file-directory",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "name": "组件开发",
+      "id": 3,
+      "parentIds": [0],
+      "url": null,
+      "icon": "dice",
+      "children": [
+        {
+          "name": "表单",
+          "id": 31,
+          "parentIds": [3],
+          "url": "form",
+          "icon": "th"
+        },
+        {
+          "name": "表格",
+          "id": 32,
+          "parentIds": [3],
+          "url": "table",
+          "icon": "table"
+        },
+        {
+          "name": "搜索",
+          "id": 33,
+          "parentIds": [3],
+          "url": "search",
+          "icon": "search"
+        },
+        {
+          "name": "分页",
+          "id": 34,
+          "parentIds": [3],
+          "url": "pagination",
+          "icon": "credit-card"
+        },
+        {
+          "name": "卡片",
+          "id": 35,
+          "parentIds": [3],
+          "url": "card",
+          "icon": "credit-card"
+        },
+        {
+          "name": "图表",
+          "id": 36,
+          "parentIds": [3],
+          "url": "chart",
+          "icon": "credit-card"
+        },
+        {
+          "name": "选项卡",
+          "id": 37,
+          "parentIds": [3],
+          "url": "tabs",
+          "icon": "list"
+        },
+        {
+          "name": "侧边栏",
+          "id": 38,
+          "parentIds": [3],
+          "url": "aside",
+          "icon": "credit-card"
+        },
+        {
+          "name": "树状结构",
+          "id": 39,
+          "parentIds": [3],
+          "url": "tree",
+          "icon": "credit-card"
+        },
+        {
+          "name": "字体图标",
+          "id": 40,
+          "parentIds": [3],
+          "url": "icon",
+          "icon": "credit-card"
+        }
+      ]
+    },
+    {
+      "name": "高级用法",
+      "id": 7,
+      "parentIds": [0],
+      "icon": "puzzle-piece",
+      "children": [
+        {
+          "name": "权限控制",
+          "id": 71,
+          "parentIds": [7],
+          "icon": "",
+          "url": "advance"
+        }
+      ],
+      "url": "advance"
+    }
+  ],
+  "resourceList": [
+    {
+      "name": "快速上手",
+      "id": 1,
+      "parentIds": [0],
+      "url": "start",
+      "icon": "box-open"
+    },
+    {
+      "name": "开发规约",
+      "id": 2,
+      "parentIds": [0],
+      "url": "spec",
+      "icon": "book-open"
+    },
+    {
+      "name": "重要说明",
+      "id": 21,
+      "parentIds": [2],
+      "url": "important-things",
+      "icon": ""
+    },
+    {
+      "name": "文件目录",
+      "id": 22,
+      "parentIds": [2],
+      "url": "file-directory",
+      "icon": ""
+    },
+    {
+      "name": "请求接口",
+      "id": 23,
+      "parentIds": [2],
+      "url": "app-interface",
+      "icon": ""
+    },
+    {
+      "name": "组件开发",
+      "id": 3,
+      "parentIds": [0],
+      "url": null,
+      "icon": "dice"
+    },
+    {
+      "name": "表单",
+      "id": 31,
+      "parentIds": [3],
+      "url": "form",
+      "icon": "th"
+    },
+    {
+      "name": "表格",
+      "id": 32,
+      "parentIds": [3],
+      "url": "table",
+      "icon": "table"
+    },
+    {
+      "name": "搜索",
+      "id": 33,
+      "parentIds": [3],
+      "url": "search",
+      "icon": "search"
+    },
+    {
+      "name": "分页",
+      "id": 34,
+      "parentIds": [3],
+      "url": "pagination",
+      "icon": "credit-card"
+    },
+    {
+      "name": "卡片",
+      "id": 35,
+      "parentIds": [3],
+      "url": "card",
+      "icon": "credit-card"
+    },
+    {
+      "name": "图表",
+      "id": 36,
+      "parentIds": [3],
+      "url": "chart",
+      "icon": "credit-card"
+    },
+    {
+      "name": "选项卡",
+      "id": 37,
+      "parentIds": [3],
+      "url": "tabs",
+      "icon": "list"
+    },
+    {
+      "name": "侧边栏",
+      "id": 38,
+      "parentIds": [3],
+      "url": "aside",
+      "icon": "credit-card"
+    },
+    {
+      "name": "树状结构",
+      "id": 39,
+      "parentIds": [3],
+      "url": "tree",
+      "icon": "credit-card"
+    },
+    {
+      "name": "字体图标",
+      "id": 40,
+      "parentIds": [3],
+      "url": "icon",
+      "icon": "credit-card"
+    },
+    {
+      "name": "高级用法",
+      "id": 7,
+      "parentIds": [0],
+      "icon": "puzzle-piece",
+      "url": "advance"
+    },
+    {
+      "name": "权限控制",
+      "id": 71,
+      "parentIds": [7],
+      "url": "advance",
+      "icon": ""
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+.el-dialog {
+  &__header {
+    background-color: #f8fafb;
+    padding: 15px;
+    box-shadow: 0 1px 0 rgba(16,22,26,.15);
+    border-radius: 3px 3px 0 0;
+  }
+  &__title {
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  &__body {
+    padding: 15px;
+    .md-cont {
+      height: 420px;
+    }
+  }
+  &__footer {
+    padding: 10px 15px;
+    background-color: #f8fafb;
+    border-top: 1px solid #d9dadc;
+    border-radius: 0 0 3px 3px;
+    text-align: right;
+  }
+  &__headerbtn {
+    top: 18px;
+    right: 15px;
+  }
+}

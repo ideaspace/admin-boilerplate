@@ -1,0 +1,9 @@
+.el-table {
+  & + .el-pagination {
+    margin-top: 16px;
+    text-align: right;
+    .el-pagination__sizes {
+      margin-right: 0;
+    }
+  }
+}

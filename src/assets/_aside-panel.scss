@@ -1,0 +1,28 @@
+.aside-panel {
+  &--hd {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 8px 16px;
+    > h4 {
+      position: relative;
+      padding: 0 32px 0 16px;
+      font-size: 16px;
+      &:before {
+        position: absolute;
+        content: '';
+        width: 3px;
+        height: 16px;
+        left: 0;
+        top: 4px;
+        background-color: #46a0fc;
+      }
+    }
+    > span {
+      font-size: 12px;
+    }
+  }
+  &--bd {
+    padding: 8px 16px;
+  }
+}

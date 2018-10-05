@@ -1,0 +1,8 @@
+[ES6 Javascript](//www.2ality.com/2015/08/getting-started-es6.html)
+[Vue Cli 3](//cli.vuejs.org)
+[Vue JS](//vuejs.org)
+[Vue Router](//router.vuejs.org)
+[Vuex](//vuex.vuejs.org)
+[Axios](//github.com/axios/axios)
+[Element Ui](//element.eleme.io/#/zh-CN/component/)
+[Font awesome](////fontawesome.com/icons/)
